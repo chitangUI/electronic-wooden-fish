@@ -2,6 +2,9 @@ using ElectronicFish.utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+#if !UNITY_EDITOR
+using GooglePlayGames;
+#endif
 
 namespace ElectronicFish
 {
