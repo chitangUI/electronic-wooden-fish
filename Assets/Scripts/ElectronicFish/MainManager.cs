@@ -89,7 +89,7 @@ namespace ElectronicFish
 		private void MeritAdd()
 		{
 			var canvas = GetComponent<Canvas>();
-			var newText = Instantiate(_meritText, fishImage.transform.position + new Vector3(300, 700, 0),  new Quaternion());
+			var newText = Instantiate(_meritText, fishImage.transform.position + new Vector3(300, 400, 0),  new Quaternion());
 			newText.transform.SetParent(canvas.transform);
 			newText.GetComponent<Text>().enabled = true;
 
