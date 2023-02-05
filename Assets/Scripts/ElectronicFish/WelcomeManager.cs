@@ -45,6 +45,7 @@ namespace ElectronicFish
 			if (status)
 			{
 				AndroidUtils.ShowAndroidToastMessage("登录成功");
+				return;
 			}
 			AndroidUtils.ShowAndroidToastMessage("登录失败");
 			if (!_tryAgain)
